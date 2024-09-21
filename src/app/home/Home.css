@@ -1,0 +1,148 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #000000;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+}
+.profile-image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 3px solid #000000; 
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro-heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.intro-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+  .linkedin-icon {
+    color: #0077b5; 
+  }
+  
+  .linkedin-icon:hover {
+    color: #005582; 
+  }
+  
+ 
+  .instagram-icon {
+    color: #e1306c;
+  }
+  
+  .instagram-icon:hover {
+    color: #b02756;
+  }
+  
+  
+  .twitter-icon {
+    color: #1da1f2; 
+  }
+  
+  .twitter-icon:hover {
+    color: #187abf; 
+  }
+  
+  .github-icon {
+    color: #333; 
+  }
+  
+  .github-icon:hover {
+    color: #000; 
+  }
+  
+  .email-box {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: #fff8f8;
+  }
+  
+  .email-icon {
+    margin-right: 8px;
+  }
+  
+  .email-text {
+    font-size: 1rem;
+  }
+
+.email-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff8f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.email-icon {
+    margin-right: 8px;
+}
+
+.email-text {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        padding: 40px 20px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+    
+    .profile-image {
+        margin-bottom: 15px; 
+    }
+
+    .intro-heading {
+        font-size: 1.5rem;
+    }
+
+    .intro-text {
+        font-size: 0.9rem;
+    }
+    
+    .social-icons {
+        flex-wrap: wrap;
+    }
+}
